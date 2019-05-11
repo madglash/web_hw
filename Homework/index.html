@@ -1,0 +1,113 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>MG Mother Nature</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body {font-family: "Lato", sans-serif}
+    .mySlides {display: none}
+    </style>
+    <body>
+    
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="comparisons.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMPARISONS</a>
+        <a href="data.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DATA</a>
+ 
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">PLOTS <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#" class="w3-bar-item w3-button">Temperature</a>
+            <a href="#" class="w3-bar-item w3-button">Humidity</a>
+            <a href="#" class="w3-bar-item w3-button">Cloudiness</a>
+            <a href="#" class="w3-bar-item w3-button">Wind Speed</a>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+      <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+      <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+
+      <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+    </div>
+    
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+          
+      <div>
+        <img src="https://www.vaisala.com/sites/default/files/styles/16_9_liftup_extra_large/public/images/LIFT-weather-spectre-800x450.jpg?itok=F2qkTCJN" style="width:100%">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">  
+      </div>
+    
+      <!-- The Summary Section -->
+      <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+        <h2 class="w3-wide">Mother Nature, the Data Scientist</h2>
+        <p class="w3-opacity"><i>because "50% chance of rain" just doesn't cut it</i></p>
+        <p class="w3-justify">
+            Welcome to the home of weather data exploration. Here we believe that answers are best shown with pictures - and that "50% chance of rain" just won't cut it for your plans. Come take a look and make your day's plans based on our latest obersations using the latest and greatest weather API and trends.
+           </p>
+        
+        <br>
+        <br>
+
+        <h2 class="w3-wide">Visualizations</h2>
+         <div class="w3-row w3-padding-32">
+          <div class="w3-third">
+            <p>Figure 1</p>
+            <img src="Resources/assets/images/Fig1.png" class="w3-round w3-margin-bottom" style="width:100%">
+          </div>
+          <div class="w3-third">
+            <p>Figure 2</p>
+            <img src="Resources/assets/images/Fig2.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:100%">
+          </div>
+         </div>
+
+         <div class="w3-row w3-padding-32">
+         <div class="w3-third">
+          <p>Figure 3</p>
+          <img src="Resources/assets/images/Fig3.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:100%">
+        </div>
+        <div class="w3-third">
+          <p>Figure 4</p>
+          <img src="Resources/assets/images/Fig4.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:100%">
+        </div>
+      </div>
+
+
+      </div>
+        
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+           
+    </body>
+    </html>
+    
+</body>
+
+</html>
